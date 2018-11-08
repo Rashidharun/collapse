@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/media.css">
+
+    <title>Collapse</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2 class="text-center">collapse</h2>
+      <p>
+        <a class="btn btn-primary" data-toggle="collapse" href="#collapse1" role="button" aria-expanded="false" aria-controls="collapseExample">
+          Lorem ipsum dolor.
+        </a>
+        <button class="btn btn-warning" type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="false" aria-controls="collapseExample">
+          Lorem ipsum dolor sit.
+        </button>
+    </p>
+    <div class="collapse" id="collapse1">
+      <div class="card card-body">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur eius harum, laboriosam commodi ipsum nemo accusamus perferendis consectetur aliquid laudantium? Veritatis in dicta fuga ex inventore quas minima laboriosam sit itaque adipisci. Obcaecati deleniti corporis minus, inventore. Facere consectetur architecto voluptatibus! Illum laborum fugiat consequuntur, sint temporibus nam, maxime sapiente.
+      </div>
+    </div>
+
+    <br>
+
+    <h2>Collapse with multiple target</h2>
+
+    <p>
+      <a class="btn btn-primary" data-toggle="collapse" href="#Example1" role="button" aria-expanded="false" aria-controls="Example1">Toggle first element</a>
+
+      <button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#Example2" aria-expanded="false" aria-controls="Example2">Toggle second element</button>
+
+      <button class="btn btn-warning" type="button" data-toggle="collapse" data-target=".multi-collapse" aria-expanded="false" aria-controls="Example1 Example2">Toggle both elements</button>
+
+    </p>
+    <div class="row">
+      <div class="col">
+        <div class="collapse multi-collapse" id="Example1">
+          <div class="card card-body custom_bg">
+            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="collapse multi-collapse" id="Example2">
+          <div class="card card-body custom_bg">
+            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!-- JavaScript -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
